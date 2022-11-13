@@ -36,29 +36,29 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return x + y;
-
+  var suma = x + y
+  return suma;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return x - y;
-
+  var resta = x - y;
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return x * y;
-
+  var multiplica = x * y;
+  return multiplica;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y;
-
+  const divide = x / y;
+  return divide;
 }
 
 function sonIguales(x, y) {
@@ -98,20 +98,22 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num > 50;
+  if (num > 50) return true;
+  else return false;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-return (x % y);
+var resto = x % y;
+return resto;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 ===0) {
+  if (num % 2 === 0) {
     return true;
   } else {
     return false;
@@ -123,12 +125,11 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 ===0) {
+  if (num % 2 === 0) {
     return false;
   } else {
     return true;
   }
-
 }
 
 function elevarAlCuadrado(num) {
@@ -141,7 +142,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow (num,3);
+  return num**3;
 }
 
 function elevar(num, exponent) {
