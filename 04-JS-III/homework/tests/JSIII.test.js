@@ -27,6 +27,7 @@ describe('devolverPrimerElemento(arr)', function() {
     expect(devolverPrimerElemento([10, 10, 16, 12])).toBe(10);
     expect(devolverPrimerElemento([97, 100, 80, 55, 72, 94])).toBe(97);
   });
+  
 });
 
 describe('devolverUltimoElemento(arr)', function() {
