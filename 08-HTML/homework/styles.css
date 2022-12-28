@@ -2,19 +2,19 @@ h1 {
     color: magenta;
 }
 img {
-    width: 400px;
+    width: 700px;
 }
 #thirdDiv {
-    height: 500px;
-    width: 1300px;
-    background-color: #ffffff;
+    height: 300px;
+    width: 400px;
+    background-color: white;
     padding: 20px;
-    border: 5px solid black;
+    border: 5px solid withe;
 }
 #spanId {
-    font-size: 24px;
+    font-size: 18px;
     margin: 30px;
 }
 .divClass {
-    background: gray
+    background: white
 }
