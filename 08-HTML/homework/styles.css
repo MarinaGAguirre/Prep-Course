@@ -6,15 +6,17 @@ img {
 }
 #thirdDiv {
     height: 300px;
-    width: 400px;
+    width: 600px;
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border: 5px solid withe;
 }
 #spanId {
     font-size: 18px;
     margin: 30px;
+    font: 
 }
 .divClass {
-    background: white
+    background: rgb(241, 238, 238)
 }
+  
