@@ -7,13 +7,13 @@ img {
 #thirdDiv {
     height: 500px;
     width: 600px;
-    background-color: #ced2d6;
-    padding: 50px;
-    border: 15px solid black;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 5px solid black;
 }
 #spanId {
-    font-size: 18px;
-    margin: 50px;
+    font-size: 24px;
+    margin: 30px;
 }
 .divClass {
     background: gray
